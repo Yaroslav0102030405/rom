@@ -1,7 +1,7 @@
 // vite.config.ts
-import Inspect from "vite-plugin-inspect";
+import Inspect from 'vite-plugin-inspect';
 
 export default {
-  base: "/rom",
+  base: '/',
   plugins: [Inspect()],
 };
