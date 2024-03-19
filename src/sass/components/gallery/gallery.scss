@@ -117,4 +117,8 @@
   font-size: 45px;
   font-weight: 700;
   line-height: 1.24;
+
+  @media screen and (max-width: $tablet) {
+    margin-bottom: 26px;
+  }
 }

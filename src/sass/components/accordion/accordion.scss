@@ -96,4 +96,10 @@
   color: $title-color;
   font-size: 36px;
   line-height: 1.55;
+
+  @media screen and (max-width: $tablet) {
+    font-size: 28px;
+    margin-top: 60px;
+    margin-bottom: 36px;
+  }
 }
