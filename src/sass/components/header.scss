@@ -50,7 +50,7 @@
   // color: $title-color;
   color: $white-color;
   font-family: Mulish;
-  font-size: 44px;
+  font-size: 36px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -76,6 +76,17 @@
   padding: 10px;
   background-color: #ff6666;
   border-radius: 10px;
+  @media screen and (max-width: $tablet) {
+    display: block;
+  }
+
+  @media screen and (min-width: $tablet) {
+    display: none;
+  }
+
+  @media screen and (min-width: $desktop) {
+    display: block;
+  }
 }
 
 .header__tel:active {
