@@ -4,10 +4,8 @@
 }
 
 .accordion__wapper {
-  // margin-top: 150px;
   display: flex;
   flex-direction: column;
-  // justify-content: center;
   align-items: center;
 }
 
@@ -16,11 +14,8 @@
   flex-direction: column;
   max-width: 600px;
   width: 100%;
+  gap: 20px;
 }
-
-// .accordion__content {
-//   display: none;
-// }
 
 .accordion__title {
   display: flex;
@@ -28,36 +23,19 @@
   align-items: center;
   font-size: 22px;
   padding: 10px 20px;
-  // cursor: pointer;
   cursor: url('../image/cursor-hand.png'), auto;
 
-  // border: 1px solid $border-grey-color;
   border-top: 0;
-  // color: $text-color;
-  // background-color: $white-color;
-  // background-color: $accent-color;
   background: linear-gradient(183deg, #6888c8 -8.57%, #5a98f2 82.96%);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
-  // border: 1px solid $accent-color;
 }
-
-// .accordion:first-child {
-//   border-top: 1px solid $accent-color;
-// }
-
-// .accordion__title.active {
-//   box-shadow: 0 0 12px 1px $accent-color;
-//   // color: $white-color;
-//   // background-color: $accent-color;
-// }
 
 .accordion__title span {
   display: inline-flex;
   position: relative;
   width: 40px;
   height: 40px;
-  // background-color: transparent;
   transform: rotate(0);
   transition: transform 0.5s ease-out;
 }
@@ -74,7 +52,6 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  // background-color: $plus-grey-color;
   background-color: $white-color;
 }
 
@@ -86,7 +63,6 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  // background-color: $plus-grey-color;
   background-color: $white-color;
 }
 
@@ -95,17 +71,13 @@
   line-height: 1.3;
   overflow: hidden;
   padding: 0 20px;
-  border: 1px solid $border-grey-color;
+  // border: 1px solid $border-grey-color;
   border-top: none;
   background-color: $white-color;
   max-height: 0;
-  // opacity: 0;
-  // visibility: hidden;
   transition:
     max-height 0.5s ease-out,
     padding 0.5s ease-out;
-  // opacity 0.1s ease-out 0.5s;
-  // visibility 0.1s ease-out 0.5s;
 }
 
 .accordion__content.active {
@@ -115,8 +87,6 @@
   transition:
     max-height 0.5s ease-out,
     padding 0.5s ease-out;
-  // opacity 0.1s ease-out;
-  // visibility 0.1s ease-out 0.5s;
 }
 
 .accordion__title3 {
